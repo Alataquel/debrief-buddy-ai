@@ -8,35 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 250 250 250; /* #FAFAFA */
+    --foreground: 0 0% 12%; /* #1E1E1E */
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 0 0% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 0 0% 12%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 233 66% 29%; /* #1E2A78 */
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 225 83% 67%; /* #657AF1 */
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 40% 91%; /* #e2e8f0 */
+    --muted-foreground: 215 20% 40%; /* #64748b */
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 214 100% 92%; /* #dbeafe */
+    --accent-foreground: 233 66% 29%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 210 40% 91%;
+    --input: 210 40% 91%;
+    --ring: 233 66% 29%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Custom tokens for interview debrief */
+    --recording: 0 84% 60%;
+    --success: 142 76% 36%;
+    --info: 217 91% 60%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(233 66% 29%), hsl(225 83% 67%));
+    --gradient-accent: linear-gradient(135deg, hsl(214 100% 92%), hsl(210 40% 96%));
+    
+    /* Shadows */
+    --shadow-subtle: 0 1px 3px 0 hsl(233 66% 29% / 0.1);
+    --shadow-medium: 0 4px 6px -1px hsl(233 66% 29% / 0.1);
+    --shadow-large: 0 10px 15px -3px hsl(233 66% 29% / 0.1);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --sidebar-background: 0 0% 98%;
 
