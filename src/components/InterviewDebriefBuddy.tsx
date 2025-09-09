@@ -160,7 +160,7 @@ const InterviewDebriefBuddy = () => {
               <span className="text-sm font-medium text-white">AI-Powered Interview Analysis</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-white">
-              Interview Debrief Buddy 📝
+              Interview Debrief <span className="bg-gradient-to-r from-blue-200 to-blue-400 bg-clip-text text-transparent">Buddy</span>
             </h1>
             <p className="text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
               "Capture what happened before you forget." Transform your post-interview thoughts into structured, 
